@@ -1,1 +1,15 @@
+*{
+    background: radial-gradient(circle, #801212, #080101);
+}
+
+h1{
+    color: rgb(204, 164, 164);
+    display: flex;
+    justify-content: center;
+    padding-top: 45vh;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
 
