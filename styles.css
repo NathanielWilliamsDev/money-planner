@@ -1,15 +1,69 @@
 *{
-    background: radial-gradient(circle, #801212, #080101);
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    background-color: rgb(255, 255, 255);
 }
 
-h1{
-    color: rgb(204, 164, 164);
+body{
+    margin: 5vh 0 0 5vw
+}
+
+.category-wrapper{
     display: flex;
-    justify-content: center;
-    padding-top: 45vh;
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
+    flex-direction: column;
+    width: 45vw;
+    align-items: center;
+    gap: 25px;
 }
 
+.category-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+.category-name{
+    justify-content: center;
+    font-size: 22px;
+    font-style: none;
+    font-weight: 100;
+    width: 90%;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 12px;
+    height: 25%;
+    font-size: 14px;
+}
+
+.category-button{
+    font-size: 22px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.category-button:hover{
+    cursor: pointer;
+}
+
+.content-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Control this with css*/
+.yellow{
+    background-color: rgb(252, 252, 186);
+}
+
+.red{
+    background-color: rgb(253, 188, 188);
+}
+
+.blue{
+    background-color: rgb(161, 209, 236);
+}
